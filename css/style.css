@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #4c4c4c;
+    background-image: url("../images/background-image.png");
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@ a{
     --yellow: #ffc000;
 }
 .main_cover{
-    background-color: #dbe5f1;
+    background: radial-gradient(rgb(255, 237, 134) , rgb(255, 228, 75));
     border-radius: 5em;
     max-width: 650px;
     width: 95%;
@@ -30,6 +30,7 @@ a{
     min-height: 500px;
     border: none;
     padding: 1.3em;
+    padding-top: 0;
 }
 .main_cover .content{
     max-width: 300px;
@@ -40,6 +41,9 @@ a{
 .main_cover .logo_cover{
     max-width: 230px;
     margin: 0 auto;
+    background-color: #1c3768;
+    padding: 25px 20px 20px 20px;
+    border-radius: 0 0 20px 20px;
 }
 .main_cover .logo_cover img{
     width: 100%;
@@ -77,4 +81,24 @@ p{
 .points p{
     font-size: 0.9em;
     font-weight: 400;
+}
+.scroll-text{
+    width: 100%;
+    overflow: hidden;
+}
+.scroll-text ul{
+    width: 800px;
+    overflow: hidden;
+    margin: 0;
+}
+.slider_cover{
+    max-height: 100px;
+    height: 100%;
+    margin: 0 20px;
+}
+.slider_cover:first-child{
+    margin-left: 0 !important;
+}
+.slider_cover img{
+    height: 100%;
 }
