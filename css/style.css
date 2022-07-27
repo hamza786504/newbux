@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: "trebuc.ttf";
+    src: url("../font/trebuc.ttf");
+}
 *{
     padding: 0;
     margin: 0;
     outline: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "trebuc.ttf";
 }
 body{
     background-image: url("../images/Black\ Background.gif");
@@ -22,7 +25,7 @@ a{
     --yellow: #ffc000;
 }
 .main_cover{
-    background: rgb(174, 85, 247);
+    background-color: #1c3768;
     border-radius: 5em;
     max-width: 650px;
     width: 95%;
