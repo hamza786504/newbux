@@ -4,7 +4,8 @@ $(function () {
       direction: "h",
       step: 1,
       delay: 0,
-      speed: 40
+      speed: 40,
+      onMouseOverPause: false
     });
 });
 
