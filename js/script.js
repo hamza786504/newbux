@@ -15,10 +15,18 @@ let i = 0;
 window.addEventListener("load", function(){
   setInterval(() => {
     if(i < single_point.length){
-      single_point[i + 1].classList.remove("d-none");
-      // return;
+      single_point[i].classList.remove("d-none");
+      i++;
+    }else if (i == single_point.length){
+      for (let j = 0; j < single_point.length; j++) {
+        single_point[j].classList.add("d-none");
+      }
+      i++;
+    }else if(i > single_point.length){
+      i = 0;
+      single_point[i].classList.remove("d-none");
+      i++;
     }
-    i++;
   }, 2000);
 })
 
