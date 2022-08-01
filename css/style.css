@@ -9,11 +9,16 @@
     font-family: "trebuc.ttf";
 }
 body{
+
+}
+body > a{
+    display: block;
     background-image: url("../images/Black\ Background.gif");
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    position: relative;
 }
 a{
     color: inherit;
@@ -34,6 +39,10 @@ a{
     border: none;
     padding: 1.3em;
     padding-top: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 .main_cover .content{
     margin: 0 auto;
